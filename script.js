@@ -5,8 +5,8 @@ const toCurr = document.querySelector(".to select");
 const amountInput = document.querySelector(".amount input");
 const messageDiv = document.querySelector(".msg");
 
-const apiKey = `cur_live_MOv6pRtXcmsfOXW0gSfdKFcxV2e2HvyMckvAA5hT`;
-const apiRequestURL = `https://api.currencyapi.com/v3/latest?apikey=cur_live_MOv6pRtXcmsfOXW0gSfdKFcxV2e2HvyMckvAA5hT`;
+const apiKey = `YOUR_API_KEY`;
+const apiRequestURL = `https://api.currencyapi.com/v3/latest?apikey=${apiKey}`;
 
 // populate the drop down with currency options
 
